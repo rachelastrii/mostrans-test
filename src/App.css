@@ -1,0 +1,40 @@
+/* 
+regular 
+light
+bold
+italic
+
+*/
+
+
+@font-face {
+	font-family: 'custom-regular';
+	src: url('/public/font/TTTravels-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'custom-medium';
+	src: url('/public/font/TTTravels-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'custom-light';
+	src: url('/public/font/TTTravels-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'custom-bold';
+	/* src: url('/public/font/TTTravels-Bold.ttf'); */
+	/* src: url('/public/font/TTTravels-Bold.ttf') format('truetype'); */
+	src: 
+		url('/public/font/TTTravels-Bold.ttf') format('truetype'),
+		url('/public/font/TTTravels-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'custom-italic';
+	src: url('/public/font/TTTravels-Italic.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'custom-extraBoldItalic';
+	src: url('/public/font/TTTravels-ExtraBoldItalic.ttf') format('truetype');
+}
