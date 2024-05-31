@@ -1,4 +1,4 @@
-# Testting app for Challenge
+# Rick and Morty API Test with React JS
 
 
 <div style={
